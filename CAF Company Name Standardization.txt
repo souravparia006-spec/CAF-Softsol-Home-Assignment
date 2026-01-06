@@ -1,0 +1,17 @@
+# CAF Company Name Standardization
+
+## Problem
+Employee Excel file contains inconsistent company names.
+
+## Solution
+Created a Python function to normalize all CAF-related names into:
+CAF SoftSol India Pvt Ltd.
+
+## Features
+- Handles empty and null values
+- Case-insensitive comparison
+- Includes unit test cases
+
+## How to Run
+```bash
+python test_company_name_cleaner.py
